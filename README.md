@@ -8,4 +8,4 @@ In this script, you will have to change the URL, session cookie, and the CARF pa
 
 Here is a screenshot of it working:
 
-![Screenshot](/images/Username_Enumeration_screenshot.PNG)
+![Screenshot](Username_Enumeration_screenshot.PNG)
