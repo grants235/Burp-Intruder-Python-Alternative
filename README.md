@@ -17,3 +17,9 @@ This is a script that will brute force password but avoid the lockout policy. As
 Here is a screenshot of it working:
 
 ![Screenshot2](Password_Brute_Force_Screenshot.PNG)
+
+## 2FA Brute force Script
+
+This script is basically the same as all the others.
+
+![screenshot3](2fa_script.PNG)
