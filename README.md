@@ -22,4 +22,5 @@ Here is a screenshot of it working:
 
 This script is basically the same as all the others.
 
-![screenshot3](2FA_brute_forcer.PNG)
+![screenshot3](2FA_script.PNG)
+
