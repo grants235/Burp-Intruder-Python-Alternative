@@ -9,3 +9,11 @@ In this script, you will have to change the URL, session cookie, and the CARF pa
 Here is a screenshot of it working:
 
 ![Screenshot](Username_Enumeration_screenshot.PNG)
+
+## Password Brute Force Scirpt 
+
+This is a script that will brute force password but avoid the lockout policy. As with th other scirpt, you will need to change the URL, session cookie, and the CSRF paramter to fit your needs. Then you should be able to run it.
+
+Here is a screenshot of it working:
+
+![Screenshot2](Password_Brute_Force_Screenshot.PNG)
