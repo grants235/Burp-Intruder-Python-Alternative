@@ -2,6 +2,13 @@
 import requests
 import time
 
+license = """
+    PyTruder  Copyright (C) 2020  Owen000
+    This program comes with ABSOLUTELY NO WARRANTY
+    This is free software, and you are welcome to redistribute it.
+"""
+print(license)
+
 with open('./asciiart.txt', 'r') as f:
     print(f.read())
 
