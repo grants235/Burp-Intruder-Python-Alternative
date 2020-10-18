@@ -2,7 +2,17 @@
 import requests
 import time
 
-url = "https://ac081feb1ed5cbaa810845aa005b009a.web-security-academy.net/login"
+license = """
+    PyTruder  Copyright (C) 2020  Owen000
+    This program comes with ABSOLUTELY NO WARRANTY
+    This is free software, and you are welcome to redistribute it.
+"""
+print(license)
+
+with open('./asciiart.txt', 'r') as f:
+    print(f.read())
+
+url = input("Enter URL:")
 
 dict = [ 'root', 'admin', 'test', 'guest', 'info', 'adm', 'mysql', 'user', 'administrator', 'oracle', 'ftp', 'pi', 'puppet', 'ansible', 'ec2-user', 'vagrant', 'azureuser', 'academico', 'acceso', 'access', 'accounting', 'accounts', 'acid', 'activestat', 'ad', 'adam', 'adkit', 'admin', 'administracion', 'administrador', 'administrator', 'administrators', 'admins', 'ads', 'adserver', 'adsl', 'ae', 'af', 'affiliate', 'affiliates', 'afiliados', 'ag', 'agenda', 'agent', 'ai', 'aix', 'ajax', 'ak', 'akamai', 'al', 'app', 'app01', 'app1', 'apple', 'application', 'applications', 'apps', 'appserver', 'aq', 'ar', 'archie', 'arcsight', 'argentina', 'arizona', 'arkansas', 'arlington', 'as', 'as400', 'asia', 'asterix', 'at', 'athena', 'atlanta', 'atlas', 'att', 'au', 'auction', 'austin', 'auth', 'auto', 'autodiscover']
 cookies = {'session' : 'PP60SyvLX5AetjvU5nz3Os2steT3Ew4l' }

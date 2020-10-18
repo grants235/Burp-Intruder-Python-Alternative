@@ -3,7 +3,13 @@
 import requests
 import time
 
-url = "https://acee1f7b1e30473780088f4200c3004b.web-security-academy.net/login2"
+
+
+with open('./asciiart.txt', 'r') as f:   
+  print(f.read())
+  
+
+url = input("Enter URL:")
 
 cookies = {'session' : 'Nre8LUvDTLWuaLXty36gkuvzqG9qaGwd', 'verify' :  'carlos' }
 
